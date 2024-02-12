@@ -1,0 +1,20 @@
+{
+  "name": "windfallapps/windfallapps-php",
+  "description": "Windfall Apps PHP Package",
+  "type": "library",
+  "require": {
+    "php": ">=8.1.13"
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Wisam Alhamad",
+      "email": "wisam@windfallapps.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "WindfallApps\\": "src/"
+    }
+}
